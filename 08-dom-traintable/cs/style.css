@@ -102,3 +102,93 @@ nav input {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   width: 200px;
 }
+
+/* CSS styles for the form and select elements */
+.addconForm {
+  font-size: 1.5em;
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "DynaPuff", cursive;
+  font-family: "Pacifico", cursive;
+}
+
+.connectionForm {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="submit"],
+select {
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.cities {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  /* text-align: center; */
+  font-family: "Alfa Slab One", cursive;
+  font-family: "DynaPuff", cursive;
+  font-family: "Pacifico", cursive;
+}
+
+.cityselector,
+.sortingselect {
+  background-color: antiquewhite;
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #1f0d0d;
+  margin-bottom: 10px;
+  margin-left: auto; /* add this property to center the select element */
+}
+
+.sorttag {
+  font-size: 1.5em;
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+  /* text-align: center; */
+  font-family: "Alfa Slab One", cursive;
+  font-family: "DynaPuff", cursive;
+  font-family: "Pacifico", cursive;
+}
+
+.line {
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #f2f2f2;
+  color: #666;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}

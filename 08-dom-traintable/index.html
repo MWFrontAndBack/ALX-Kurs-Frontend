@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DynaPuff:wght@500&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./cs/style.css" />
   </head>
   <body>
@@ -18,8 +21,8 @@
       </div>
     </nav>
     <main></main>
-    <h2>Add New Connection</h2>
-    <form id="addConnection">
+    <h2 class="addconForm">Add New Connection</h2>
+    <form class="connectionForm" id="addConnection">
         <label for="from">From:</label>
         <input type="text" id="from" name="from" value="Warszawa"><br><br>
       
@@ -37,14 +40,15 @@
       
         <input type="submit" value="Submit">
       </form>
+      <hr class="line">
 
       
-      <h2>Wybierz Miasto</h2>
-      <select id="chooseCity">
+      <h2 class="cities">Wybierz Miasto</h2>
+      <select class="cityselector" id="chooseCity">
        
       </select>
-      <h2>Sortowanie po Dacie</h2>
-      <select id="trainsSort">
+      <h2 class="sorttag">Sortowanie po Dacie</h2>
+      <select class="sortingselect" id="trainsSort">
         <option value="asc">rosnąco</option>
         <option value="desc">malejaco</option>
        

@@ -121,7 +121,7 @@ function render(collection) {
     trainsList.innerHTML = ''
 
     collection.forEach(c => {
-        trainsList.innerHTML += `<li> <div>
+        trainsList.innerHTML += `<li> <div class="container">
             <p>${c.from} </p>
             <p>${c.to}</p>
             <p>${c.time} </p>
@@ -163,16 +163,19 @@ const addNewConnection = (event) => {
     render(trains)
 }
 const sortConnections = (collection, order) => {
-    if (order == 'asc') {
-        return collection.sort((a, b) => a.date - b.date)
+    console.log(order)
+    if (order == 'desc') {
+        return collection.sort((a, b) => Date.parse(a.date) - Date.parse(b.date) ? -1 : 1)
+
     } else {
-        return collection.sort((a, b) => b.date - a.date)
+        return collection.sort((a, b) => Date.parse(a.date) > Date.parse(b.date) ? 1 : -1)
 
     }
 }
 const addSortingOption = () => {
     let sortType = selectSort.value
     let sortedTrains = sortConnections(trains, sortType)
+    console.log(sortedTrains)
     render(sortedTrains)
 }
 
