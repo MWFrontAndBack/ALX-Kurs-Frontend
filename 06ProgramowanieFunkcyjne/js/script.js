@@ -169,3 +169,6 @@ const getSumOfFruits = (collection) => {
 }
 
 console.log(getSumOfFruits(products3))
+
+
+// zadanie 
