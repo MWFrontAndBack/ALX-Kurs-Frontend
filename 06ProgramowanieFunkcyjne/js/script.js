@@ -67,3 +67,50 @@ function filterFruits(collection, category) {
 
 let filter = filterFruits(products, 'Fruits')
 console.log(filter)
+
+// zadania
+
+// zad1 
+
+
+const helloMessage = (name) => {
+
+    return 'hello ' + name
+}
+console.log(helloMessage('michal'))
+
+// zad2
+
+const sumElemnts = (collection) => {
+    return collection.reduce((start, next) => start + next.price, 0)
+}
+
+console.log(sumElemnts(products))
+// zad3
+imiona = ['ania', 'michal', 'alex']
+const getLetters = (words) => {
+    let wordsLengt = words.map((w) => w.length)
+    return wordsLengt
+}
+console.log(getLetters(imiona))
+//zad4
+
+const getTheMostExpensiveProduct = (collection) => {
+    let sorted = collection.sort(function (a, b) { return a.price - b.price });
+    return sorted[0]
+}
+console.log(getTheMostExpensiveProduct(products))
+
+//zad5
+imiona = ['ania', 'michal', 'alex']
+
+const findNameIndex = (collection, name) => {
+    for (let i = 1; i < collection.length; i++) {
+        if (collection[i] == name) {
+            return i
+        }
+    }
+
+}
+
+console.log(findNameIndex(imiona, 'alex'))
