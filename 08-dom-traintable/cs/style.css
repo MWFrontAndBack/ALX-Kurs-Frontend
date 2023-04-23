@@ -1,0 +1,104 @@
+/* style for the trains list */
+#trainsList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* style for each train item */
+#trainsList li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* style for the train item content */
+#trainsList li div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* style for the train item fields */
+#trainsList li div p {
+  margin: 0;
+  padding: 0;
+}
+
+/* style for the train item title */
+#trainsList li div p:first-child {
+  font-weight: bold;
+}
+
+/* style for the train item date field */
+#trainsList li div p:nth-child(4) {
+  font-style: italic;
+}
+
+/* style for the form fields */
+#messageForm input,
+#messageForm button {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+/* style for the form label */
+#messageForm label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* style for the search input */
+#search {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+/* style for the search button */
+#searchButton {
+  font-size: 16px;
+  padding: 5px;
+}
+
+/* style for the select inputs */
+select {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+nav div:first-of-type {
+  font-size: 24px;
+}
+
+nav div:last-of-type {
+  display: flex;
+  align-items: center;
+}
+
+nav input {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  width: 200px;
+}
