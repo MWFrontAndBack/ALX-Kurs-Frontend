@@ -112,5 +112,60 @@ const findNameIndex = (collection, name) => {
     }
 
 }
+const findNameIndexsecond = (collection, sarch) => {
+    let index = -1;
+    collection.forEach((item, ind) => {
+        if (item == sarch) {
+            index = ind
+        }
+    })
+    return index;
+
+}
+
 
 console.log(findNameIndex(imiona, 'alex'))
+console.log(findNameIndexsecond(imiona, 'alex'))
+
+// saearch by text
+
+const users = [
+    {
+        author: "Damian",
+        message: "jest dobrze ale trudno",
+
+    }, {
+        author: "Kacper",
+        message: "niewiem co napisac",
+    }
+]
+const findSomethingInMessge = (collection, search) => {
+    return collection.filter(c => c.message.includes(search))
+}
+
+console.log(findSomethingInMessge(users, 'nie'))
+
+
+const products3 = [
+    {
+        name: "Jablko",
+        category: "Fruits",
+        price: 4.99
+    },
+    {
+        name: "Banan",
+        category: "Fruits",
+        price: 7.00
+    },
+    {
+        name: "Chleb",
+        category: "Bakery",
+        price: 3.99
+    }
+]
+
+const getSumOfFruits = (collection) => {
+    return collection.filter(c => c.category == 'Fruits').reduce((start, next) => start + next.price, 0)
+}
+
+console.log(getSumOfFruits(products3))
