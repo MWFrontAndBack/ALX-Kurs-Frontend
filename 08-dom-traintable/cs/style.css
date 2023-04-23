@@ -140,7 +140,7 @@ select {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #000700;
   color: white;
   cursor: pointer;
 }
@@ -191,4 +191,12 @@ footer {
   font-size: 14px;
   padding: 20px;
   text-align: center;
+}
+.remove {
+  margin-top: 10px;
+  background-color: beige;
+  font-size: large;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "DynaPuff", cursive;
+  font-family: "Pacifico", cursive;
 }

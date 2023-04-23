@@ -38,14 +38,17 @@
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" value="śnieżka"><br><br>
       
-        <input type="submit" value="Submit">
+        <input type="submit" value="Dodaj">
       </form>
+      <button id="removeButton" class="remove">remove Trains</button>
+
       <hr class="line">
 
       
       <h2 class="cities">Wybierz Miasto</h2>
-      <select class="cityselector" id="chooseCity">
-       
+      <select class="cityselector" id="chooseCity" >
+        <!-- <option value="" selected disabled>Select a city</option> -->
+
       </select>
       <h2 class="sorttag">Sortowanie po Dacie</h2>
       <select class="sortingselect" id="trainsSort">
@@ -53,7 +56,8 @@
         <option value="desc">malejaco</option>
        
       </select>
-    <ul id="trainsList"></ul>
+
+    <ul class="trainconlist" id="trainsList"></ul>
 
     <!--
   Napisz wyszukiwarke połączeń pkp. Kazde polaczenie niech zawiera nastepujace pola:
