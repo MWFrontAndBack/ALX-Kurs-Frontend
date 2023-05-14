@@ -1,0 +1,20 @@
+{
+  "trains": [
+    {
+      "id": 1,
+      "from": "Warsaw",
+      "to": "Szczecin",
+      "name": "Sniezka",
+      "date": "13.05.2023",
+      "time": "14:41"
+    },
+    {
+      "from": "fda",
+      "to": "fda",
+      "name": "niewiem",
+      "date": "2000-12-10",
+      "time": "16:34",
+      "id": 2
+    }
+  ]
+}

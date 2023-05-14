@@ -1,0 +1,17 @@
+{
+  "name": "13-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db": "json-server -p 8000 ./db/database.json",
+    "dev": "parcel src/*.html",
+    "start": "npm-run-all --parallel db dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "parcel": "^2.8.3"
+  }
+}

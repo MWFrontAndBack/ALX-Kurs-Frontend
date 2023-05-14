@@ -1,0 +1,21 @@
+{
+  "apartments": [
+    {
+      "title": "siema",
+      "description": "fdafad",
+      "price": "2123",
+      "publication_date": "2023-05-02",
+      "photos": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRYYGBgYGhgaGhocGhocHh4aGhoaGiEZGBoeIS4lHB4rJBkYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQrJCE0NDQ0NDQ0NDQ0NDQ0NDY0NDQ0NDQ0NDQ0MTQ0NDQ0NDE0NDQ0NDQ0NjQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAIDBAYHAf/EAEgQAAIABAMDCAYGBwgCAwEAAAECAAMRIQQSMQVBUQYTIjJhcYGRQlKhsdHwI2JyssHhFENTc4KSsyQzY5OiwtLxFXQWJTQH/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAJBEAAgIBBAICAwEAAAAAAAAAAAECERIDITFBUWEEcSIy8BP/2gAMAwEAAhEDEQA/AM9JxQGoi5K2io/6/OBKy14nzHwh4lrxPmPhHmOKPRTDybUXgfZGm5L7QR1ZAemHD5dCQAtxx0pHPllrxb2RawzBSGV3VgagilQYcHjKxTjlGjtKOGFRp7jwMAFT9HxnBMSPATB8a/6oq8ntv85RSQJgFxoHA3rwPZu7qwb2rhueknJ11o6cQ63A7Du8Y78so5Lo4scXjLsqbVHNTpeIHVJ5uZ9luqx7j+ED5LlMUX9BpjS273Zip80p4wYQrisNe2dKH6rDXyYe6BmzpBnSpyk9Poq17rNllte0kK38UH13uL762NHlitipFQYk2bieclo+9hccGFmHgQYuZKgxpyiODKLL6Zjl21ZBE16CgMxhpuzH4R1p0o5+d5jnO0pAE1C3pYiZvOgMz8oktMETZRGWm9qaa2Jp26eyOgcjpYGHFgDmatPnugLj8OmeTQA1mGuv7Kb+NPKNJyalhZbACg5xreUKwYVywssSUjykMkaVsIpbWSsiaOMt/umCBFhFTaY+imfu3+6YARytM",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "30m, taniej nie sprzedam",
+      "description": "Idealny stan, niemiec plakal jak sie wyprowadzal",
+      "price": 599999,
+      "publication_date": "10.05.2023",
+      "photos": "https://thumbs.dreamstime.com/b/modern-apartment-building-5569745.jpg"
+    }
+  ],
+  "users": []
+}
